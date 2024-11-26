@@ -121,8 +121,9 @@ def main():
     # Add pooling layer or flatten layer
     x = keras.layers.GlobalAveragePooling2D()(x)
 
-    # Add final dense layer with 6 classes for the 6 types of fruit
-    outputs = keras.layers.Dense(6, activation='softmax')(x)
+    # TODO - CHANGE TO HOW MANY OUTPUT CLASSES WE HAVE
+    # Add final dense layer with 151 classes for the 151 types of pokemon
+    outputs = keras.layers.Dense(151, activation='softmax')(x)
 
     # Combine inputs and outputs to create model
     model = keras.Model(inputs, outputs)
