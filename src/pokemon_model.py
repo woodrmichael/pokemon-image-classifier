@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 """
-Fresh/Rotten fruit predictor
-
-Written by Derek Riley, inspired by Nvidia DLI training
+Pokemon Image Predictor
 
 # Building a model
 # --data - subdirectory of images for training
@@ -145,7 +143,7 @@ def save_loss_plot(history, args):
     plt.plot(history['val_accuracy'], label='Validation Accuracy')
     plt.xlabel('Epochs')
     plt.ylabel('Accuracy')
-    plt.title('Fruit Classification, Batch Size: ' + args.batch_size + ' Epochs: ' + args.epochs)
+    plt.title('Pokemon Classification, Batch Size: ' + args.batch_size + ' Epochs: ' + args.epochs)
     plt.legend()
     plt.savefig(args.main_dir + '/' + 'model_b' + args.batch_size + '_e' + args.epochs + '.png')
 
