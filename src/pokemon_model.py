@@ -21,6 +21,9 @@ Example:
 
 """
 
+import os
+import shutil
+from sklearn.model_selection import train_test_split
 import argparse
 from tensorflow import keras
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
@@ -38,6 +41,53 @@ def parse_args():
     return parser.parse_args()
 
 
+def create_stratified_split(data_dir, temp_dir, test_size=0.2):
+    """
+    Split the dataset into stratified training and validation datasets.
+
+    Args:
+        data_dir (str): Path to the folder containing the dataset.
+        temp_dir (str): Path to the temporary folder for train/test split.
+        test_size (float): Fraction of data to use as validation set.
+    """
+    # Clear the temp_dir if it exists, and recreate it
+    if os.path.exists(temp_dir):
+        shutil.rmtree(temp_dir)
+    os.makedirs(temp_dir)
+
+    train_dir = os.path.join(temp_dir, 'train')
+    val_dir = os.path.join(temp_dir, 'test')
+    os.makedirs(train_dir)
+    os.makedirs(val_dir)
+
+    # Iterate through each class folder
+    for class_name in os.listdir(data_dir):
+        class_path = os.path.join(data_dir, class_name)
+        if not os.path.isdir(class_path):
+            continue
+
+        # Get all file paths for the class
+        image_paths = [os.path.join(class_path, fname) for fname in os.listdir(class_path)]
+
+        # Stratified split
+        train_paths, val_paths = train_test_split(image_paths, test_size=test_size,
+                                                  stratify=[class_name] * len(image_paths))
+
+        # Create class directories in train and validation folders
+        train_class_dir = os.path.join(train_dir, class_name)
+        val_class_dir = os.path.join(val_dir, class_name)
+        os.makedirs(train_class_dir, exist_ok=True)
+        os.makedirs(val_class_dir, exist_ok=True)
+
+        # Copy files into the respective directories
+        for path in train_paths:
+            shutil.copy(path, train_class_dir)
+        for path in val_paths:
+            shutil.copy(path, val_class_dir)
+
+    return train_dir, val_dir
+
+
 def main():
     # start by parsing the command line arguments
     args = parse_args()
@@ -49,6 +99,10 @@ def main():
     h5modeloutput = 'model_b' + args.batch_size + '_e' + args.epochs + '_aug' + \
                     args.augment_data + '_ft' + args.fine_tune + '.h5'
     print(args)
+
+    # Create stratified train/test split
+    temp_dir = os.path.join(args.main_dir, 'temp_split')
+    train_dir, val_dir = create_stratified_split(data, temp_dir)
 
     # Load weights pre-trained on the ImageNet model
     base_model = keras.applications.VGG16(
@@ -100,13 +154,13 @@ def main():
             vertical_flip=False)  # randomly flip images
 
     # load and iterate training dataset
-    train_it = datagen.flow_from_directory(data + '/train/',
+    train_it = datagen.flow_from_directory(train_dir,
                                            target_size=(224, 224),
                                            color_mode='rgb',
                                            batch_size=my_batch_size,
                                            class_mode="categorical")
     # load and iterate validation dataset
-    valid_it = datagen.flow_from_directory(data + '/test/',
+    valid_it = datagen.flow_from_directory(val_dir,
                                            target_size=(224, 224),
                                            color_mode='rgb',
                                            batch_size=my_batch_size,
