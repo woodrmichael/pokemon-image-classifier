@@ -48,7 +48,7 @@
 container="/data/containers/msoe-tensorflow-20.07-tf2-py3.sif"
 
 # Command to run inside container
-command="python Lab11.py --data /data/cs2300/L9/fruits --batch_size 32 --epochs 5 --main_dir /home/woodm/CSC2611/Lab11 --augment_data true --fine_tune false"
+command="python pokemon_model.py --data /data --batch_size 32 --epochs 5 --main_dir /home/woodm/CSC2611/pokemon --augment_data true --fine_tune false"
 
 # Execute singularity container on node.
 singularity exec --nv -B /data:/data ${container} /usr/local/bin/nvidia_entrypoint.sh ${command}
