@@ -1,0 +1,35 @@
+                                                                                                                                                
+================
+== TensorFlow ==
+================
+
+NVIDIA Release 20.07-tf2 (build 14714731)
+TensorFlow Version 2.2.0
+
+Container image Copyright (c) 2020, NVIDIA CORPORATION.  All rights reserved.
+Copyright 2017-2020 The TensorFlow Authors.  All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION.  All rights reserved.
+NVIDIA modifications are covered by the license terms that apply to the underlying project or file.
+
+Detected MOFED 5.7-1.0.2.
+
+NOTE: MOFED driver was detected, but nv_peer_mem driver was not detected.
+      Multi-node communication performance may be reduced.
+
+Namespace(augment_data='true', batch_size='32', data='/home/woodm/CSC2611/pokemon-image-classifier/data', epochs='5', fine_tune='false', main_dir='/home/woodm/CSC2611/pokemon-image-classifier/src/baseline-model')
+before training and valid loaded
+Found 41906 images belonging to 150 classes.
+BETWEEN
+Found 10558 images belonging to 150 classes.
+before fitting
+Epoch 1/5
+1310/1309 - 912s - loss: 3.0438 - accuracy: 0.5059 - val_loss: 1.4291 - val_accuracy: 0.7042
+Epoch 2/5
+1310/1309 - 827s - loss: 1.0170 - accuracy: 0.7725 - val_loss: 1.2346 - val_accuracy: 0.7507
+Epoch 3/5
+1310/1309 - 826s - loss: 0.7183 - accuracy: 0.8311 - val_loss: 1.1398 - val_accuracy: 0.7762
+Epoch 4/5
+1310/1309 - 827s - loss: 0.5807 - accuracy: 0.8595 - val_loss: 1.0776 - val_accuracy: 0.8004
+Epoch 5/5
+1310/1309 - 824s - loss: 0.4883 - accuracy: 0.8771 - val_loss: 1.0915 - val_accuracy: 0.8105

@@ -48,7 +48,7 @@
 container="/data/containers/msoe-tensorflow-20.07-tf2-py3.sif"
 
 # Command to run inside container
-command="python pokemon_model.py --data /home/woodm/CSC2611/pokemon-image-classifier/data --batch_size 32 --epochs 5 --main_dir /home/woodm/CSC2611/pokemon-image-classifier/src/baseline-model --augment_data true --fine_tune false"
+command="python baseline_model.py --data /home/woodm/CSC2611/pokemon-image-classifier/data --batch_size 32 --epochs 5 --main_dir /home/woodm/CSC2611/pokemon-image-classifier/src/baseline-model --augment_data true --fine_tune false"
 
 # Execute singularity container on node.
 singularity exec --nv -B /data:/data ${container} /usr/local/bin/nvidia_entrypoint.sh ${command}
