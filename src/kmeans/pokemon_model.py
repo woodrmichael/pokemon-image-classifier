@@ -28,7 +28,14 @@ import argparse
 from tensorflow import keras
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import matplotlib.pyplot as plt
-
+import seaborn as sns; sns.set()  # for plot styling
+import numpy as np
+import pandas as pd
+from sklearn.cluster import KMeans
+import itertools
+from sklearn.metrics import silhouette_score, silhouette_samples, davies_bouldin_score
+from sklearn import preprocessing
+from sklearn.decomposition import PCA
 
 def parse_args():
     parser = argparse.ArgumentParser()
