@@ -37,6 +37,8 @@ from sklearn.metrics import silhouette_score, silhouette_samples, davies_bouldin
 from sklearn import preprocessing
 from sklearn.decomposition import PCA
 
+
+
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', type=str, default='')
@@ -111,15 +113,13 @@ def main():
     temp_dir = os.path.join(args.main_dir, 'temp_split')
     train_dir, val_dir = create_stratified_split(data, temp_dir)
 
-    # Load weights pre-trained on the ImageNet model
-    base_model = keras.applications.VGG16(
-        weights='imagenet',
-        input_shape=(224, 224, 3),
-        include_top=False)
 
-    # Next, we will freeze the base model so that all the learning from the ImageNet
-    # dataset does not get destroyed in the initial training.
-    base_model.trainable = False
+    
+    #Creation of the model
+    kmeans = KMeans(n_clusters=10)
+    #fit to the data folders 
+    kmeans.fit(digits.data)
+    clusters = kmeans.predict(digits.data)
 
     # Create inputs with correct shape
     inputs = keras.Input(shape=(224, 224, 3))
