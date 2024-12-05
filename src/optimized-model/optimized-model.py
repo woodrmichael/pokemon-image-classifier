@@ -17,7 +17,7 @@ Note:
     
 Example:
     
-    python Lab12.py --data /data/cs2300/L9/fruits --batch_size 32 --epochs 10 --main_dir home/<username> --augment_data false --fine_tune true
+    python Lab12.py --data /pokemon-image-classifier/stratified-data --batch_size 32 --epochs 10 --main_dir home/<username> --augment_data false --fine_tune true
 
 """
 
@@ -48,6 +48,7 @@ def main():
     K.set_session(tf.Session(config=config))
 
 
+    print("Parsing args...")
     # start by parsing the command line arguments 
     args = parse_args()
     data = args.data
@@ -59,6 +60,7 @@ def main():
         args.augment_data + '_ft' + args.fine_tune + '.h5'
     print(args)
     
+    print("Loading weights pre-trained on ImageNet model...")
     # Load weights pre-trained on the ImageNet model
     base_model = keras.applications.VGG16(
         weights='imagenet',  
@@ -69,17 +71,20 @@ def main():
     # dataset does not get destroyed in the initial training.
     base_model.trainable = False
 
+    print("Creating inputs...")
     # Create inputs with correct shape
     inputs = keras.Input(shape=(224, 224, 3))
     x = base_model(inputs)
     x.trainable = False
-
+    
+    print("Adding layers...")
     # Add pooling layer or flatten layer
     x =  keras.layers.GlobalAveragePooling2D()(x)
 
     # AMOUNT OF CLASSES GOES HERE
     outputs = keras.layers.Dense(149, activation = 'softmax')(x)
 
+    print("Combining...")
     # Combine inputs and outputs to create model
     model = keras.Model(inputs, outputs)
     
@@ -90,6 +95,7 @@ def main():
     # uncomment the following code if you want to see the model
     # model.summary()
 
+    print("Compiling...")
     # Now it's time to compile the model with loss and metrics options. 
     model.compile(optimizer=opt, loss = 'categorical_crossentropy' , metrics = ['accuracy'])
 
@@ -104,6 +110,7 @@ def main():
 
     # These are data augmentation steps
     if(augment_data.lower() in ['true', '1', 't', 'y', 'yes']):
+        print("Augmenting data...")
         datagen = ImageDataGenerator(
                 samplewise_center=True,  # set each sample mean to 0
                 rotation_range=0,  # randomly rotate images in the range (degrees, 0 to 180)
@@ -113,12 +120,15 @@ def main():
                 horizontal_flip=False,  # randomly flip images
                 vertical_flip=False) # randomly flip images
 
+    print("Loading training data...")
     # load and iterate training dataset
     train_it = datagen.flow_from_directory( data + '/train/', 
                                            target_size=(224,224), 
                                            color_mode='rgb', 
                                            batch_size=my_batch_size,
                                            class_mode="categorical")
+                                           
+    print("Loading validation data...")
     # load and iterate validation dataset
     valid_it = datagen.flow_from_directory( data + '/test/', 
                                           target_size=(224,224), 
@@ -129,6 +139,7 @@ def main():
     #Broadcast the initial state
     callbacks = [hvd.callbacks.BroadcastGlobalVariablesCallback(0)]
 
+    print("Training...")
     # Train the model
     history_object = model.fit(train_it,
               validation_data=valid_it,
@@ -139,7 +150,7 @@ def main():
               verbose=2)
 
     if(fine_tune.lower() in ['true', '1', 't', 'y', 'yes']):
-        print("fine tuning...")
+        print("Fine tuning...")
         # This will improve the accuracy of the model by fine tuning the training on the entire unfrozen model.  
         # Unfreeze the base model
         base_model.trainable = True
@@ -171,7 +182,7 @@ def save_loss_plot(history, args):
     plt.plot(history['val_accuracy'], label='Validation Accuracy')
     plt.xlabel('Epochs')
     plt.ylabel('Accuracy')
-    plt.title('Fruit Classification, Batch Size: ' + args.batch_size + ' Epochs: ' + args.epochs)
+    plt.title('Pokemon Classification, Batch Size: ' + args.batch_size + ' Epochs: ' + args.epochs)
     plt.legend()
     plt.savefig(args.main_dir + '/' + 'model_b' + args.batch_size + '_e' + args.epochs + ' rank ' + str(hvd.rank()) + '.png')
     print(args.main_dir + '/' + 'model_b' + args.batch_size + '_e' + args.epochs + ' rank ' + str(hvd.rank()) + '.png')
