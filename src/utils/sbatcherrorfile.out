@@ -1,0 +1,40 @@
+MOFED version '5.7-1.0.2' not available in this container.
+No matching alternate version found.
+2024-12-05 15:48:39.923609: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+2024-12-05 15:48:44.740520: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2024-12-05 15:48:44.885863: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:db:00.0 name: Tesla T4 computeCapability: 7.5
+coreClock: 1.59GHz coreCount: 40 deviceMemorySize: 14.57GiB deviceMemoryBandwidth: 298.08GiB/s
+2024-12-05 15:48:44.885897: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+2024-12-05 15:48:44.912037: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+2024-12-05 15:48:44.926352: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2024-12-05 15:48:44.933969: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2024-12-05 15:48:44.960833: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2024-12-05 15:48:44.967209: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+2024-12-05 15:48:44.968540: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+2024-12-05 15:48:44.975107: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2024-12-05 15:48:45.000031: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2600000000 Hz
+2024-12-05 15:48:45.002506: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fbd88000b20 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-12-05 15:48:45.002525: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-12-05 15:48:45.217666: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4cf1b10 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2024-12-05 15:48:45.217732: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+2024-12-05 15:48:45.221637: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:db:00.0 name: Tesla T4 computeCapability: 7.5
+coreClock: 1.59GHz coreCount: 40 deviceMemorySize: 14.57GiB deviceMemoryBandwidth: 298.08GiB/s
+2024-12-05 15:48:45.221665: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+2024-12-05 15:48:45.221685: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+2024-12-05 15:48:45.221693: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2024-12-05 15:48:45.221700: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2024-12-05 15:48:45.221707: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2024-12-05 15:48:45.221714: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+2024-12-05 15:48:45.221721: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+2024-12-05 15:48:45.225450: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2024-12-05 15:48:45.227456: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+2024-12-05 15:48:47.765707: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2024-12-05 15:48:47.765753: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0 
+2024-12-05 15:48:47.765760: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N 
+2024-12-05 15:48:47.772147: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 13826 MB memory) -> physical GPU (device: 0, name: Tesla T4, pci bus id: 0000:db:00.0, compute capability: 7.5)
+2024-12-05 15:48:48.961417: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+2024-12-05 15:48:50.374074: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+/usr/local/lib/python3.6/dist-packages/PIL/Image.py:963: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  "Palette images with Transparency expressed in bytes should be "
