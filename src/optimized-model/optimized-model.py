@@ -78,7 +78,7 @@ def main():
     x =  keras.layers.GlobalAveragePooling2D()(x)
 
     # AMOUNT OF CLASSES GOES HERE
-    outputs = keras.layers.Dense(150, activation = 'softmax')(x)
+    outputs = keras.layers.Dense(149, activation = 'softmax')(x)
 
     # Combine inputs and outputs to create model
     model = keras.Model(inputs, outputs)

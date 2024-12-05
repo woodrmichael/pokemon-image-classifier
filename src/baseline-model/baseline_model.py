@@ -125,7 +125,7 @@ def main():
 
     # TODO - CHANGE TO HOW MANY OUTPUT CLASSES WE HAVE
     # Add final dense layer with 150 classes for the 150 types of pokemon
-    outputs = keras.layers.Dense(150, activation='softmax')(x)
+    outputs = keras.layers.Dense(149, activation='softmax')(x)
 
     # Combine inputs and outputs to create model
     model = keras.Model(inputs, outputs)
