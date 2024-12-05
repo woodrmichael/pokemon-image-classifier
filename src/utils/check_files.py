@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 
-
 import os
 
 def check_images(directory):
     corrupted_files = []
 
+    count = 0
     for root, _, files in os.walk(directory):
         for file in files:
+            count += 1
             file_path = os.path.join(root, file)
             try:
                 with open(file_path, "rb") as f:
@@ -17,6 +18,7 @@ def check_images(directory):
                 print("Error with file: " + file_path)
                 corrupted_files.append(file_path)
 
+    print("Total Files: " + str(count))
     return corrupted_files
 
 

@@ -8,6 +8,8 @@ def remove_invalid_images(directory):
     Parameters:
     directory (str): The root directory containing images to validate and clean.
     """
+    
+    count = 0
     for foldername, subfolders, filenames in os.walk(directory):
         for filename in filenames:
             file_path = os.path.join(foldername, filename)
@@ -32,6 +34,9 @@ def remove_invalid_images(directory):
                 # Catch truncation or corruption errors
                 print(f"Deleting corrupted or truncated image: {file_path}")
                 os.remove(file_path)
+                count += 1
+                
+    print("Removed: " + str(count) + " Files")
 
 # Example usage:
-remove_invalid_images('/home/woodm/CSC2611/pokemon-image-classifier/src/baseline-model/temp_split')
+remove_invalid_images('/home/woodm/CSC2611/pokemon-image-classifier/data')
