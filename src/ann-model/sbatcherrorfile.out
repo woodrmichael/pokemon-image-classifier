@@ -1,0 +1,62 @@
+MOFED version '5.7-1.0.2' not available in this container.
+No matching alternate version found.
+2024-12-09 11:37:57.737004: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+2024-12-09 11:38:00.379464: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 11:38:03 2024[0]<stderr>:2024-12-09 11:38:03.489941: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 11:38:03 2024[0]<stderr>:WARNING:tensorflow:Deprecation warnings have been disabled. Set TF_ENABLE_DEPRECATION_WARNINGS=1 to re-enable them.
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.102388: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.232111: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1634] Found device 0 with properties: 
+Mon Dec  9 11:38:06 2024[0]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+Mon Dec  9 11:38:06 2024[0]<stderr>:pciBusID: 0000:60:00.0
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.232161: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.269363: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.298187: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.312720: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.367666: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.377007: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.378936: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.385444: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1762] Adding visible gpu devices: 0
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.407312: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600000000 Hz
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.411392: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x58aaae0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.411428: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.640753: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x50133d0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.640829: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.643158: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1634] Found device 0 with properties: 
+Mon Dec  9 11:38:06 2024[0]<stderr>:name: Tesla T4 major: 7 minor: 5 memoryClockRate(GHz): 1.59
+Mon Dec  9 11:38:06 2024[0]<stderr>:pciBusID: 0000:60:00.0
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.643250: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.643298: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.643331: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.643364: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.643402: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.643440: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.643478: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.656523: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1762] Adding visible gpu devices: 0
+Mon Dec  9 11:38:06 2024[0]<stderr>:2024-12-09 11:38:06.659994: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 11:38:09 2024[0]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 11:38:09 2024[0]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 11:38:10 2024[0]<stderr>:2024-12-09 11:38:10.907384: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1175] Device interconnect StreamExecutor with strength 1 edge matrix:
+Mon Dec  9 11:38:10 2024[0]<stderr>:2024-12-09 11:38:10.907440: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181]      0 
+Mon Dec  9 11:38:10 2024[0]<stderr>:2024-12-09 11:38:10.907451: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1194] 0:   N 
+Mon Dec  9 11:38:10 2024[0]<stderr>:2024-12-09 11:38:10.912267: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1320] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 13831 MB memory) -> physical GPU (device: 0, name: Tesla T4, pci bus id: 0000:60:00.0, compute capability: 7.5)
+Mon Dec  9 11:38:12 2024[0]<stderr>:2024-12-09 11:38:12.387831: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 11:38:14 2024[0]<stderr>:2024-12-09 11:38:14.417021: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 11:38:46 2024[0]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 11:38:46 2024[0]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 11:48:39 2024[0]<stderr>:Traceback (most recent call last):
+Mon Dec  9 11:48:39 2024[0]<stderr>:  File "pokemon_model2.py", line 132, in <module>
+Mon Dec  9 11:48:39 2024[0]<stderr>:    train_accuracy = history.history['accuracy'][-1] * 100  # Last epoch training accuracy
+Mon Dec  9 11:48:39 2024[0]<stderr>:KeyError: 'accuracy'
+Traceback (most recent call last):
+  File "/usr/local/bin/horovodrun", line 21, in <module>
+    run.run()
+  File "/usr/local/lib/python3.6/dist-packages/horovod/run/run.py", line 734, in run
+    gloo_run(settings, remote_host_names, common_intfs, env)
+  File "/usr/local/lib/python3.6/dist-packages/horovod/run/gloo_run.py", line 299, in gloo_run
+    _launch_jobs(settings, env, host_alloc_plan, remote_host_names, run_command)
+  File "/usr/local/lib/python3.6/dist-packages/horovod/run/gloo_run.py", line 262, in _launch_jobs
+    .format(name=name, code=exit_code))
+RuntimeError: Gloo job detected that one or more processes exited with non-zero status, thus causing the job to be terminated. The first process to do so was:
+Process name: 0
+Exit code: 1
+
