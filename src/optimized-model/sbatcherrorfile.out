@@ -1,0 +1,332 @@
+MOFED version '5.4-3.5.8' not available in this container.
+No matching alternate version found.
+2024-12-09 17:16:04.634554: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+2024-12-09 17:16:07.087769: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:08 2024[7]<stderr>:2024-12-09 17:16:08.768059: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:08 2024[0]<stderr>:2024-12-09 17:16:08.780960: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:08 2024[2]<stderr>:2024-12-09 17:16:08.784570: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:08 2024[4]<stderr>:2024-12-09 17:16:08.813743: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:08 2024[7]<stderr>:WARNING:tensorflow:Deprecation warnings have been disabled. Set TF_ENABLE_DEPRECATION_WARNINGS=1 to re-enable them.
+Mon Dec  9 17:16:08 2024[0]<stderr>:WARNING:tensorflow:Deprecation warnings have been disabled. Set TF_ENABLE_DEPRECATION_WARNINGS=1 to re-enable them.
+Mon Dec  9 17:16:08 2024[2]<stderr>:WARNING:tensorflow:Deprecation warnings have been disabled. Set TF_ENABLE_DEPRECATION_WARNINGS=1 to re-enable them.
+Mon Dec  9 17:16:08 2024[5]<stderr>:2024-12-09 17:16:08.831673: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:08 2024[6]<stderr>:2024-12-09 17:16:08.831670: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:08 2024[4]<stderr>:WARNING:tensorflow:Deprecation warnings have been disabled. Set TF_ENABLE_DEPRECATION_WARNINGS=1 to re-enable them.
+Mon Dec  9 17:16:08 2024[1]<stderr>:2024-12-09 17:16:08.866869: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:08 2024[3]<stderr>:2024-12-09 17:16:08.866875: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:08 2024[5]<stderr>:WARNING:tensorflow:Deprecation warnings have been disabled. Set TF_ENABLE_DEPRECATION_WARNINGS=1 to re-enable them.
+Mon Dec  9 17:16:08 2024[6]<stderr>:WARNING:tensorflow:Deprecation warnings have been disabled. Set TF_ENABLE_DEPRECATION_WARNINGS=1 to re-enable them.
+Mon Dec  9 17:16:08 2024[1]<stderr>:WARNING:tensorflow:Deprecation warnings have been disabled. Set TF_ENABLE_DEPRECATION_WARNINGS=1 to re-enable them.
+Mon Dec  9 17:16:08 2024[3]<stderr>:WARNING:tensorflow:Deprecation warnings have been disabled. Set TF_ENABLE_DEPRECATION_WARNINGS=1 to re-enable them.
+Mon Dec  9 17:16:10 2024[1]<stderr>:Using TensorFlow backend.
+Mon Dec  9 17:16:10 2024[6]<stderr>:Using TensorFlow backend.
+Mon Dec  9 17:16:10 2024[2]<stderr>:Using TensorFlow backend.
+Mon Dec  9 17:16:10 2024[7]<stderr>:Using TensorFlow backend.
+Mon Dec  9 17:16:10 2024[0]<stderr>:Using TensorFlow backend.
+Mon Dec  9 17:16:10 2024[3]<stderr>:Using TensorFlow backend.
+Mon Dec  9 17:16:10 2024[5]<stderr>:Using TensorFlow backend.
+Mon Dec  9 17:16:10 2024[4]<stderr>:Using TensorFlow backend.
+Mon Dec  9 17:16:10 2024[3]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:117: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+Mon Dec  9 17:16:10 2024[3]<stderr>:
+Mon Dec  9 17:16:10 2024[3]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:143: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+Mon Dec  9 17:16:10 2024[3]<stderr>:
+Mon Dec  9 17:16:10 2024[1]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:117: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+Mon Dec  9 17:16:10 2024[1]<stderr>:
+Mon Dec  9 17:16:10 2024[1]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:143: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+Mon Dec  9 17:16:10 2024[1]<stderr>:
+Mon Dec  9 17:16:10 2024[0]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:117: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+Mon Dec  9 17:16:10 2024[0]<stderr>:
+Mon Dec  9 17:16:10 2024[6]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:117: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+Mon Dec  9 17:16:10 2024[0]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:143: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+Mon Dec  9 17:16:10 2024[6]<stderr>:
+Mon Dec  9 17:16:10 2024[0]<stderr>:
+Mon Dec  9 17:16:10 2024[6]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:143: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+Mon Dec  9 17:16:10 2024[7]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:117: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+Mon Dec  9 17:16:10 2024[6]<stderr>:
+Mon Dec  9 17:16:10 2024[7]<stderr>:
+Mon Dec  9 17:16:10 2024[7]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:143: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+Mon Dec  9 17:16:10 2024[7]<stderr>:
+Mon Dec  9 17:16:10 2024[2]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:117: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+Mon Dec  9 17:16:10 2024[2]<stderr>:
+Mon Dec  9 17:16:10 2024[2]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:143: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+Mon Dec  9 17:16:10 2024[2]<stderr>:
+Mon Dec  9 17:16:10 2024[5]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:117: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+Mon Dec  9 17:16:10 2024[5]<stderr>:
+Mon Dec  9 17:16:10 2024[5]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:143: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+Mon Dec  9 17:16:10 2024[5]<stderr>:
+Mon Dec  9 17:16:10 2024[4]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:117: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+Mon Dec  9 17:16:10 2024[4]<stderr>:
+Mon Dec  9 17:16:10 2024[4]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/horovod/tensorflow/__init__.py:143: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+Mon Dec  9 17:16:10 2024[4]<stderr>:
+Mon Dec  9 17:16:13 2024[1]<stderr>:WARNING:tensorflow:From optimized-model.py:45: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+Mon Dec  9 17:16:13 2024[3]<stderr>:WARNING:tensorflow:From optimized-model.py:45: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+Mon Dec  9 17:16:13 2024[1]<stderr>:
+Mon Dec  9 17:16:13 2024[0]<stderr>:WARNING:tensorflow:From optimized-model.py:45: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+Mon Dec  9 17:16:13 2024[5]<stderr>:WARNING:tensorflow:From optimized-model.py:45: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+Mon Dec  9 17:16:13 2024[7]<stderr>:WARNING:tensorflow:From optimized-model.py:45: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+Mon Dec  9 17:16:13 2024[4]<stderr>:WARNING:tensorflow:From optimized-model.py:45: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+Mon Dec  9 17:16:13 2024[2]<stderr>:WARNING:tensorflow:From optimized-model.py:45: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+Mon Dec  9 17:16:13 2024[0]<stderr>:
+Mon Dec  9 17:16:13 2024[5]<stderr>:
+Mon Dec  9 17:16:13 2024[6]<stderr>:WARNING:tensorflow:From optimized-model.py:45: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+Mon Dec  9 17:16:13 2024[1]<stderr>:WARNING:tensorflow:From optimized-model.py:48: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+Mon Dec  9 17:16:13 2024[3]<stderr>:
+Mon Dec  9 17:16:13 2024[7]<stderr>:
+Mon Dec  9 17:16:13 2024[4]<stderr>:
+Mon Dec  9 17:16:13 2024[2]<stderr>:
+Mon Dec  9 17:16:13 2024[1]<stderr>:
+Mon Dec  9 17:16:13 2024[6]<stderr>:
+Mon Dec  9 17:16:13 2024[7]<stderr>:WARNING:tensorflow:From optimized-model.py:48: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+Mon Dec  9 17:16:13 2024[5]<stderr>:WARNING:tensorflow:From optimized-model.py:48: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+Mon Dec  9 17:16:13 2024[3]<stderr>:WARNING:tensorflow:From optimized-model.py:48: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+Mon Dec  9 17:16:13 2024[4]<stderr>:WARNING:tensorflow:From optimized-model.py:48: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+Mon Dec  9 17:16:13 2024[7]<stderr>:
+Mon Dec  9 17:16:13 2024[5]<stderr>:
+Mon Dec  9 17:16:13 2024[3]<stderr>:
+Mon Dec  9 17:16:13 2024[4]<stderr>:
+Mon Dec  9 17:16:13 2024[0]<stderr>:WARNING:tensorflow:From optimized-model.py:48: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+Mon Dec  9 17:16:13 2024[2]<stderr>:WARNING:tensorflow:From optimized-model.py:48: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+Mon Dec  9 17:16:13 2024[6]<stderr>:WARNING:tensorflow:From optimized-model.py:48: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+Mon Dec  9 17:16:13 2024[0]<stderr>:
+Mon Dec  9 17:16:13 2024[2]<stderr>:
+Mon Dec  9 17:16:13 2024[6]<stderr>:
+Mon Dec  9 17:16:13 2024[0]<stderr>:2024-12-09 17:16:13.067383: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194930000 Hz
+Mon Dec  9 17:16:13 2024[1]<stderr>:2024-12-09 17:16:13.067421: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194930000 Hz
+Mon Dec  9 17:16:13 2024[7]<stderr>:2024-12-09 17:16:13.067452: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194930000 Hz
+Mon Dec  9 17:16:13 2024[4]<stderr>:2024-12-09 17:16:13.067656: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194930000 Hz
+Mon Dec  9 17:16:13 2024[3]<stderr>:2024-12-09 17:16:13.067414: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194930000 Hz
+Mon Dec  9 17:16:13 2024[2]<stderr>:2024-12-09 17:16:13.067904: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194930000 Hz
+Mon Dec  9 17:16:13 2024[6]<stderr>:2024-12-09 17:16:13.067753: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194930000 Hz
+Mon Dec  9 17:16:13 2024[5]<stderr>:2024-12-09 17:16:13.067701: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194930000 Hz
+Mon Dec  9 17:16:13 2024[3]<stderr>:2024-12-09 17:16:13.076288: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4f07050 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:13 2024[3]<stderr>:2024-12-09 17:16:13.076330: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Mon Dec  9 17:16:13 2024[0]<stderr>:2024-12-09 17:16:13.076282: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4743d00 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:13 2024[0]<stderr>:2024-12-09 17:16:13.076330: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Mon Dec  9 17:16:13 2024[6]<stderr>:2024-12-09 17:16:13.076231: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x48df950 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:13 2024[2]<stderr>:2024-12-09 17:16:13.076257: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4dd1490 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:13 2024[5]<stderr>:2024-12-09 17:16:13.076329: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3dc1260 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:13 2024[7]<stderr>:2024-12-09 17:16:13.076332: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x457c130 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:13 2024[1]<stderr>:2024-12-09 17:16:13.076288: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x410f820 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:13 2024[4]<stderr>:2024-12-09 17:16:13.076300: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4398450 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:13 2024[6]<stderr>:2024-12-09 17:16:13.076340: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Mon Dec  9 17:16:13 2024[2]<stderr>:2024-12-09 17:16:13.076340: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Mon Dec  9 17:16:13 2024[5]<stderr>:2024-12-09 17:16:13.076426: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Mon Dec  9 17:16:13 2024[7]<stderr>:2024-12-09 17:16:13.076417: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Mon Dec  9 17:16:13 2024[4]<stderr>:2024-12-09 17:16:13.076412: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Mon Dec  9 17:16:13 2024[1]<stderr>:2024-12-09 17:16:13.076330: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Mon Dec  9 17:16:13 2024[6]<stderr>:2024-12-09 17:16:13.081672: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+Mon Dec  9 17:16:13 2024[5]<stderr>:2024-12-09 17:16:13.081674: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+Mon Dec  9 17:16:13 2024[2]<stderr>:2024-12-09 17:16:13.081670: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+Mon Dec  9 17:16:13 2024[1]<stderr>:2024-12-09 17:16:13.081850: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+Mon Dec  9 17:16:13 2024[4]<stderr>:2024-12-09 17:16:13.081684: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+Mon Dec  9 17:16:13 2024[0]<stderr>:2024-12-09 17:16:13.082094: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+Mon Dec  9 17:16:13 2024[3]<stderr>:2024-12-09 17:16:13.081680: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+Mon Dec  9 17:16:13 2024[7]<stderr>:2024-12-09 17:16:13.082112: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.362044: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x48e37c0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.362122: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100-SXM2-32GB, Compute Capability 7.0
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.367705: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1634] Found device 0 with properties: 
+Mon Dec  9 17:16:15 2024[6]<stderr>:name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+Mon Dec  9 17:16:15 2024[6]<stderr>:pciBusID: 0000:89:00.0
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.367766: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.391640: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4348fa0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.391713: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100-SXM2-32GB, Compute Capability 7.0
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.392953: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1634] Found device 0 with properties: 
+Mon Dec  9 17:16:15 2024[4]<stderr>:name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+Mon Dec  9 17:16:15 2024[4]<stderr>:pciBusID: 0000:85:00.0
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.393034: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.400420: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.400947: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.407190: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4f46eb0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.407247: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4714600 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.407232: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100-SXM2-32GB, Compute Capability 7.0
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.407285: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100-SXM2-32GB, Compute Capability 7.0
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.409431: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1634] Found device 0 with properties: 
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.409462: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1634] Found device 0 with properties: 
+Mon Dec  9 17:16:15 2024[3]<stderr>:name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+Mon Dec  9 17:16:15 2024[0]<stderr>:name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+Mon Dec  9 17:16:15 2024[3]<stderr>:pciBusID: 0000:0b:00.0
+Mon Dec  9 17:16:15 2024[0]<stderr>:pciBusID: 0000:06:00.0
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.409473: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.409495: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.410743: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3db83d0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.410780: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100-SXM2-32GB, Compute Capability 7.0
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.411742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1634] Found device 0 with properties: 
+Mon Dec  9 17:16:15 2024[5]<stderr>:name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+Mon Dec  9 17:16:15 2024[5]<stderr>:pciBusID: 0000:86:00.0
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.411780: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.413205: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.413207: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.415328: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.415936: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.415980: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.416000: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.416004: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.416412: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.422162: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.422205: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.422226: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.422347: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.422306: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.436192: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4537ae0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.436224: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100-SXM2-32GB, Compute Capability 7.0
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.436926: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x411ecc0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.437014: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100-SXM2-32GB, Compute Capability 7.0
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.437564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1634] Found device 0 with properties: 
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.437582: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4daf9d0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+Mon Dec  9 17:16:15 2024[7]<stderr>:name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.437705: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100-SXM2-32GB, Compute Capability 7.0
+Mon Dec  9 17:16:15 2024[7]<stderr>:pciBusID: 0000:8a:00.0
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.437638: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.438327: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1634] Found device 0 with properties: 
+Mon Dec  9 17:16:15 2024[1]<stderr>:name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+Mon Dec  9 17:16:15 2024[1]<stderr>:pciBusID: 0000:07:00.0
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.438432: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.439384: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1634] Found device 0 with properties: 
+Mon Dec  9 17:16:15 2024[2]<stderr>:name: Tesla V100-SXM2-32GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+Mon Dec  9 17:16:15 2024[2]<stderr>:pciBusID: 0000:0a:00.0
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.439465: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.440776: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.441507: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.441914: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.442190: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.442822: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.443093: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.443178: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.444852: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.445124: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.458829: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.458878: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.458830: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.458902: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.458839: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.459403: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.458870: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.459454: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.466896: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.466919: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.466927: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.466951: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.466971: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.467327: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.467327: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.467439: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.11
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.468594: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.468612: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.468630: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.468652: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.468714: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.468576: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.468655: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.468714: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.475965: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1762] Adding visible gpu devices: 1
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.476165: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1762] Adding visible gpu devices: 0
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.476328: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1762] Adding visible gpu devices: 7
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.476429: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1762] Adding visible gpu devices: 3
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.476473: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1762] Adding visible gpu devices: 6
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.476507: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1762] Adding visible gpu devices: 5
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.476617: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1762] Adding visible gpu devices: 4
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.476557: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1762] Adding visible gpu devices: 2
+Mon Dec  9 17:16:15 2024[0]<stderr>:2024-12-09 17:16:15.477222: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[3]<stderr>:2024-12-09 17:16:15.477254: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[5]<stderr>:2024-12-09 17:16:15.477302: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[2]<stderr>:2024-12-09 17:16:15.477309: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[4]<stderr>:2024-12-09 17:16:15.477309: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[6]<stderr>:2024-12-09 17:16:15.477284: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[7]<stderr>:2024-12-09 17:16:15.477275: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:15 2024[1]<stderr>:2024-12-09 17:16:15.477836: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.11.0
+Mon Dec  9 17:16:17 2024[4]<stderr>:2024-12-09 17:16:17.529577: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1175] Device interconnect StreamExecutor with strength 1 edge matrix:
+Mon Dec  9 17:16:17 2024[4]<stderr>:2024-12-09 17:16:17.529673: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181]      4 
+Mon Dec  9 17:16:17 2024[4]<stderr>:2024-12-09 17:16:17.529685: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1194] 4:   N 
+Mon Dec  9 17:16:17 2024[4]<stderr>:2024-12-09 17:16:17.531716: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1320] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30156 MB memory) -> physical GPU (device: 4, name: Tesla V100-SXM2-32GB, pci bus id: 0000:85:00.0, compute capability: 7.0)
+Mon Dec  9 17:16:17 2024[5]<stderr>:2024-12-09 17:16:17.537118: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1175] Device interconnect StreamExecutor with strength 1 edge matrix:
+Mon Dec  9 17:16:17 2024[5]<stderr>:2024-12-09 17:16:17.537174: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181]      5 
+Mon Dec  9 17:16:17 2024[5]<stderr>:2024-12-09 17:16:17.537185: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1194] 5:   N 
+Mon Dec  9 17:16:17 2024[0]<stderr>:2024-12-09 17:16:17.538309: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1175] Device interconnect StreamExecutor with strength 1 edge matrix:
+Mon Dec  9 17:16:17 2024[0]<stderr>:2024-12-09 17:16:17.538406: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181]      0 
+Mon Dec  9 17:16:17 2024[0]<stderr>:2024-12-09 17:16:17.538415: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1194] 0:   N 
+Mon Dec  9 17:16:17 2024[5]<stderr>:2024-12-09 17:16:17.539079: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1320] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30156 MB memory) -> physical GPU (device: 5, name: Tesla V100-SXM2-32GB, pci bus id: 0000:86:00.0, compute capability: 7.0)
+Mon Dec  9 17:16:17 2024[0]<stderr>:2024-12-09 17:16:17.539848: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1320] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30156 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:06:00.0, compute capability: 7.0)
+Mon Dec  9 17:16:17 2024[3]<stderr>:2024-12-09 17:16:17.542867: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1175] Device interconnect StreamExecutor with strength 1 edge matrix:
+Mon Dec  9 17:16:17 2024[3]<stderr>:2024-12-09 17:16:17.542939: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181]      3 
+Mon Dec  9 17:16:17 2024[3]<stderr>:2024-12-09 17:16:17.542949: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1194] 3:   N 
+Mon Dec  9 17:16:17 2024[3]<stderr>:2024-12-09 17:16:17.546596: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1320] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30156 MB memory) -> physical GPU (device: 3, name: Tesla V100-SXM2-32GB, pci bus id: 0000:0b:00.0, compute capability: 7.0)
+Mon Dec  9 17:16:17 2024[2]<stderr>:2024-12-09 17:16:17.551057: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1175] Device interconnect StreamExecutor with strength 1 edge matrix:
+Mon Dec  9 17:16:17 2024[2]<stderr>:2024-12-09 17:16:17.551111: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181]      2 
+Mon Dec  9 17:16:17 2024[2]<stderr>:2024-12-09 17:16:17.551120: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1194] 2:   N 
+Mon Dec  9 17:16:17 2024[2]<stderr>:2024-12-09 17:16:17.552285: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1320] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30156 MB memory) -> physical GPU (device: 2, name: Tesla V100-SXM2-32GB, pci bus id: 0000:0a:00.0, compute capability: 7.0)
+Mon Dec  9 17:16:17 2024[1]<stderr>:2024-12-09 17:16:17.558019: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1175] Device interconnect StreamExecutor with strength 1 edge matrix:
+Mon Dec  9 17:16:17 2024[1]<stderr>:2024-12-09 17:16:17.558109: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181]      1 
+Mon Dec  9 17:16:17 2024[1]<stderr>:2024-12-09 17:16:17.558120: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1194] 1:   N 
+Mon Dec  9 17:16:17 2024[1]<stderr>:2024-12-09 17:16:17.561483: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1320] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30156 MB memory) -> physical GPU (device: 1, name: Tesla V100-SXM2-32GB, pci bus id: 0000:07:00.0, compute capability: 7.0)
+Mon Dec  9 17:16:17 2024[6]<stderr>:2024-12-09 17:16:17.567427: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1175] Device interconnect StreamExecutor with strength 1 edge matrix:
+Mon Dec  9 17:16:17 2024[6]<stderr>:2024-12-09 17:16:17.567460: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181]      6 
+Mon Dec  9 17:16:17 2024[6]<stderr>:2024-12-09 17:16:17.567486: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1194] 6:   N 
+Mon Dec  9 17:16:17 2024[6]<stderr>:2024-12-09 17:16:17.568690: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1320] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30156 MB memory) -> physical GPU (device: 6, name: Tesla V100-SXM2-32GB, pci bus id: 0000:89:00.0, compute capability: 7.0)
+Mon Dec  9 17:16:17 2024[7]<stderr>:2024-12-09 17:16:17.583952: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1175] Device interconnect StreamExecutor with strength 1 edge matrix:
+Mon Dec  9 17:16:17 2024[7]<stderr>:2024-12-09 17:16:17.584001: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181]      7 
+Mon Dec  9 17:16:17 2024[7]<stderr>:2024-12-09 17:16:17.584029: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1194] 7:   N 
+Mon Dec  9 17:16:17 2024[7]<stderr>:2024-12-09 17:16:17.585830: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1320] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30156 MB memory) -> physical GPU (device: 7, name: Tesla V100-SXM2-32GB, pci bus id: 0000:8a:00.0, compute capability: 7.0)
+Mon Dec  9 17:16:17 2024[0]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+Mon Dec  9 17:16:17 2024[0]<stderr>:
+Mon Dec  9 17:16:17 2024[5]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+Mon Dec  9 17:16:17 2024[5]<stderr>:
+Mon Dec  9 17:16:17 2024[4]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+Mon Dec  9 17:16:17 2024[4]<stderr>:
+Mon Dec  9 17:16:17 2024[2]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+Mon Dec  9 17:16:17 2024[2]<stderr>:
+Mon Dec  9 17:16:17 2024[3]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+Mon Dec  9 17:16:17 2024[3]<stderr>:
+Mon Dec  9 17:16:17 2024[1]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+Mon Dec  9 17:16:17 2024[1]<stderr>:
+Mon Dec  9 17:16:17 2024[6]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+Mon Dec  9 17:16:17 2024[6]<stderr>:
+Mon Dec  9 17:16:17 2024[7]<stderr>:WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4070: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+Mon Dec  9 17:16:17 2024[7]<stderr>:
+Mon Dec  9 17:16:21 2024[0]<stderr>:2024-12-09 17:16:21.871342: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:21 2024[7]<stderr>:2024-12-09 17:16:21.871388: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:21 2024[4]<stderr>:2024-12-09 17:16:21.926855: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:21 2024[2]<stderr>:2024-12-09 17:16:21.969718: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:21 2024[5]<stderr>:2024-12-09 17:16:21.985050: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:22 2024[1]<stderr>:2024-12-09 17:16:22.034428: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:22 2024[3]<stderr>:2024-12-09 17:16:22.100470: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:22 2024[6]<stderr>:2024-12-09 17:16:22.206753: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.11
+Mon Dec  9 17:16:22 2024[2]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:16:22 2024[2]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:16:22 2024[1]<stderr>:2024-12-09 17:16:22.991208: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:22 2024[0]<stderr>:2024-12-09 17:16:22.991180: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:22 2024[7]<stderr>:2024-12-09 17:16:22.991213: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:22 2024[6]<stderr>:2024-12-09 17:16:22.996799: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:23 2024[2]<stderr>:2024-12-09 17:16:23.002987: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:23 2024[3]<stderr>:2024-12-09 17:16:23.003718: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:23 2024[5]<stderr>:2024-12-09 17:16:23.024158: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:23 2024[4]<stderr>:2024-12-09 17:16:23.024543: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.8
+Mon Dec  9 17:16:25 2024[3]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:16:25 2024[3]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:16:28 2024[0]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:16:28 2024[0]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:16:30 2024[7]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:16:30 2024[7]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:16:34 2024[4]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:16:34 2024[4]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:16:36 2024[6]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:16:36 2024[6]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:17:00 2024[1]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:17:00 2024[1]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:18:05 2024[5]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:18:05 2024[5]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:37:51 2024[7]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:37:51 2024[7]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:37:52 2024[1]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:37:52 2024[1]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:37:58 2024[3]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:37:58 2024[3]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:37:59 2024[0]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:37:59 2024[0]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:38:05 2024[5]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:38:05 2024[5]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:38:06 2024[2]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:38:06 2024[2]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:38:10 2024[4]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:38:10 2024[4]<stderr>:  "Palette images with Transparency expressed in bytes should be "
+Mon Dec  9 17:38:14 2024[6]<stderr>:/usr/local/lib/python3.6/dist-packages/PIL/Image.py:989: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+Mon Dec  9 17:38:14 2024[6]<stderr>:  "Palette images with Transparency expressed in bytes should be "
